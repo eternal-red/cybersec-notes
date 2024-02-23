@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "2da307317f8bb087",
+    "type": "split",
+    "children": [
+      {
+        "id": "5933142e811a272f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b2ff0954d159239",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "error messages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38c783a62ead878d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2d16a9ad1cd6c27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb9d5886b8a78740",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2c4292b1977cc878",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "04fd2135dbe88a9c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "97902af07db81efa",
+    "type": "split",
+    "children": [
+      {
+        "id": "0faf49814c52e234",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c56ffa7041c0e490",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "error messages.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9fc12d1fc84f642d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "error messages.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5841eecf6cbd9004",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "320672fc4a0236a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "error messages.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fb9d5886b8a78740",
+  "lastOpenFiles": [
+    "Concepts/Hacking/web enumeration.md",
+    "Concepts/Hacking/shells.md",
+    "Concepts/Hacking/service scanning.md",
+    "Concepts/Hacking/priv esc.md",
+    "Concepts/Hacking/common services.md",
+    "Concepts/Hacking/finding exploits.md",
+    "Concepts/Hacking",
+    "how to find info.md",
+    "error messages.md",
+    "adding new shell.md",
+    "Tools/adding new shell.md",
+    "Tools/docker.md",
+    "Tools/git commands.md",
+    "perms.md",
+    "Methodology/perms.md",
+    "ToDo/questions.md",
+    "Xclip.md",
+    "ToDo/Xclip.md",
+    "ToDo",
+    "untitled folder",
+    "TroubleShooting",
+    "git commands.md",
+    "questions.md",
+    "writeups/bandit progress.md",
+    "writeups/leviathan.md",
+    "Methodology/methodology.md",
+    "Tools/useful bash templates.md",
+    "Tools/useful tidbits.md",
+    "Concepts/Linux/user management.md",
+    "Concepts/Linux/tty and pty.md",
+    "Concepts/Linux",
+    "Concepts",
+    "Methodology",
+    "Tools"
+  ]
+}
