@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b2ff0954d159239",
+            "id": "19622e37d177ed4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "error messages.md",
+                "file": "ToDo/upgrading shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a88fed2a610ddef7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ToDo/questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ctrl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 222.5
   },
   "right": {
     "id": "97902af07db81efa",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "error messages.md",
+                "file": "ToDo/upgrading shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "error messages.md",
+                "file": "ToDo/upgrading shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "error messages.md"
+                "file": "ToDo/upgrading shell.md"
               }
             }
           }
@@ -146,41 +159,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb9d5886b8a78740",
+  "active": "19622e37d177ed4b",
   "lastOpenFiles": [
-    "Concepts/Hacking/web enumeration.md",
-    "Concepts/Hacking/shells.md",
-    "Concepts/Hacking/service scanning.md",
-    "Concepts/Hacking/priv esc.md",
-    "Concepts/Hacking/common services.md",
-    "Concepts/Hacking/finding exploits.md",
-    "Concepts/Hacking",
-    "how to find info.md",
-    "error messages.md",
-    "adding new shell.md",
-    "Tools/adding new shell.md",
-    "Tools/docker.md",
-    "Tools/git commands.md",
-    "perms.md",
-    "Methodology/perms.md",
-    "ToDo/questions.md",
-    "Xclip.md",
-    "ToDo/Xclip.md",
-    "ToDo",
-    "untitled folder",
-    "TroubleShooting",
-    "git commands.md",
-    "questions.md",
-    "writeups/bandit progress.md",
-    "writeups/leviathan.md",
-    "Methodology/methodology.md",
-    "Tools/useful bash templates.md",
     "Tools/useful tidbits.md",
-    "Concepts/Linux/user management.md",
-    "Concepts/Linux/tty and pty.md",
-    "Concepts/Linux",
-    "Concepts",
-    "Methodology",
-    "Tools"
+    "ToDo/upgrading shell.md",
+    "Concepts/Linux/filesystem.md",
+    "ToDo/tasks.md",
+    "Concepts/Hacking/metasploit.md",
+    "ToDo/questions.md",
+    "Methodology/Specific Methods/gaining shell methodology.md",
+    "Concepts/Hacking/finding exploits.md",
+    "Concepts/Hacking/web enumeration.md",
+    "how to find info.md",
+    "Methodology/Specific Methods/metasploit methodology.md",
+    "Methodology/Specific Methods/wordpress methodology.md",
+    "Methodology/methodology.md",
+    "Tools/adding new shell.md",
+    "writeups/leviathan.md",
+    "writeups/firewall lab.md",
+    "writeups/box 1.md",
+    "writeups/bandit progress.md",
+    "writeups/wp-lab.md",
+    "error messages.md",
+    "perms.md",
+    "useful lists/handy nmap scripts.md",
+    "useful lists/list of useful websites.md",
+    "useful lists",
+    "Concepts/Hacking/wordpress.md",
+    "Methodology/Specific Methods",
+    "Tools/docker.md",
+    "writeups/shell lab.md",
+    "_assets/url fields.png",
+    "writeups/Screenshot 2024-02-23 at 5.55.44 PM.png",
+    "Concepts/web",
+    "_assets",
+    "assets",
+    "untitled folder",
+    "Concepts/Hacking",
+    "ToDo",
+    "TroubleShooting",
+    "Concepts/Linux"
   ]
 }

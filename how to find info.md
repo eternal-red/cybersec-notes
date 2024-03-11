@@ -4,6 +4,6 @@
 - help
 	- for some commands you call help in a special way
 	- only works for bash
-		- /bin/[program] --help
-		- help [program]
+		- /bin/program --help
+		- help program
 - whatis

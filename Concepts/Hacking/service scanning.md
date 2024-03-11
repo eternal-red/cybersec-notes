@@ -16,3 +16,7 @@
 ### nmap
 - has a library of custom scripts that can do extra stuff
 	- names of scripts are including in nmap directory use ```locate``` cmd to find them
+
+
+### discovering services with a shell
+- `netstat -tuln`: lists all open ports on device

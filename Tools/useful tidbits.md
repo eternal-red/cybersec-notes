@@ -16,6 +16,7 @@
 	- undo aliases with unalias
 - $SHLVL: denotes how many shells deep you're in
 - `'stuff'`single quotes are interpreted as plaintext, `"stuff"` is interpreted as scripting or regex
+- [CTRL] + [←] / [→]  lets you move by words instead of characters
 
 ### nano
 - ctrl+k: deletes line

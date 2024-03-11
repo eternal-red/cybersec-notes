@@ -25,3 +25,8 @@
 
 
 cewl: create a custom wordlist of potential usernames and passwords based on the website
+
+### sending web requests
+Get requests
+Post requests
+Delete requests

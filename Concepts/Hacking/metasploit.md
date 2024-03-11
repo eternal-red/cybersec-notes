@@ -1,0 +1,50 @@
+### tips
+- help /<keyword/>
+	- gives help on a specific metasploit command
+- many ways to search things up
+	- [here](https://academy.hackthebox.com/module/39/section/404)
+- setg: globally sets parameters until program restarted
+- you can use grep in metasploit
+	- can chain it so it greps the output of previous grep (don't use `|`)
+
+### what are things
+- target
+	- the particular operating system and version of it
+	- exploits are different depending on the target
+	- if target is not manually set, metasploit will do its own version detection and automatically set target
+- payload
+	- single
+		- contains exploit and entire shellcode
+		- more stable
+	- staged
+		- multiple stages
+			- stage 0: establish a network connection
+			- stage 1: send shell payload over connection
+			- later stages: makes shell stable, harder to detect, and more
+- note
+	- if there is a `/` in payload name, it is staged
+	- meterpreter lets you use linux commands on windows machines
+	- metasploit contains its own collection of pentest tools (plugins)
+	- local exploit suggester in msfconsole suggests exploits
+- encoder
+	- use
+		- obfuscation/ids evasion
+		- makes payload compatible with target architecture
+		- decreases risk of shell dying because of errors on target
+- organization
+	- store all findings (targets, versions) in postgresql database to get suggestions in msfconsole
+	- use workspaces to seperate databases
+	- exploit and sessions can be used to run multiple payloads at the same time
+- importing modules
+	- upload module to `.msf4` or `metasploit-framework` folder (in addition to relevant subfields and file name)
+	- wrong naming convention may cause errors
+	- `reload_all` inside `msfconsole`
+- Firewall/IDS 
+	- security policies
+		- ACL lists
+		- Signature, Heuristic, Stateful, and Live monitoring detection methods
+	- evasion
+		- don't use default templates, use msfvenom templates 
+			- (msf6 default uses unique payloads each time)
+		- encrypt your payloads (msf6 meterpeter does this)
+		- recompille meterpreter from source code (after changing it a lil)
