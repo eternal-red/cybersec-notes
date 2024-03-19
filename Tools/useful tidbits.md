@@ -17,6 +17,11 @@
 - $SHLVL: denotes how many shells deep you're in
 - `'stuff'`single quotes are interpreted as plaintext, `"stuff"` is interpreted as scripting or regex
 - [CTRL] + [←] / [→]  lets you move by words instead of characters
+- three ways to chain commands
+	- Semicolon (;), (&&) also (||), Pipes (|)
+- `systemctl show <service>` outputs all available properties for a service
+
+
 
 ### nano
 - ctrl+k: deletes line
@@ -36,3 +41,8 @@
 	- kill panes and windows
 - ctrl+R
 	- view command history
+- note
+	- tmux shells do not die if the terminal they are in is killed
+	- each tmux pane is a individual shell process
+
+

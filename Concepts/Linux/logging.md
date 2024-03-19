@@ -1,0 +1,11 @@
+#### types of logs
+- Kernel Logs
+	- `/var/log/kern.log`
+- System Logs
+	- `/var/log/syslog`
+- Authentication Logs
+	- `/var/log/auth.log`
+- Application Logs
+	- `/var/log/<service>/error.log`
+- Security Logs
+	- `/var/log/<service name>.log`

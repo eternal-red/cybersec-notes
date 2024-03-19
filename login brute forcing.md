@@ -1,0 +1,31 @@
+- tools for login brute forcing
+	- Ncrack
+	- wfuzz
+	- medusa
+	- patator
+	- hydra: important to specify the service you are brute forcing
+- attack types
+	- password attack types
+		- brute force
+		- dictionary
+			- you can use files with user:passwd pairs
+			- `always try default creds (top 5 creds)`
+	- methods
+		- online
+		- offline
+		- reverse
+		- hybrid
+-  types of authentication
+	- basic
+		- http header: Authorization
+	- login forms (php, aspx)
+		- can specify success/fail condition
+			- this can be set to any string, you expect to only see during successes or only see during fails
+		- password authentication
+			- password authentication is sent to the server as an encoded post request
+			- we must know the username and password fields in order to correctly password spray the target
+				- get it through devtools
+- tools to create personalized wordlists
+	- cupp (passwd)
+	- cewl (user & pass)
+	- username anarchy (username)

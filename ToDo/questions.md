@@ -11,15 +11,14 @@
 	
 <font style="color:#CF0000"> why do websites display different pages when I go there with the hostname vs the ip:port?</font>
 	- server configured to show different content based on how it is accessed
+	- virtual hosts
 
-
-
-- plugins were not found with a basic version of wpscan? (no api)
-- how to identify existing exploits after port scanning and vulnerability scanning?
+- <font style="color:#CF0000"> how to identify existing exploits after port scanning and vulnerability scanning? </font>
 	- do you just search for each /<version/>+exploit with full name?
-	- kinda seems like you just paste full name and version of service on google and see what tangentially related exploits there are
-<font style="color:yellow">  that one specific msfconsole failure?</font>
+	- you just paste full name and version of service on google and see what tangentially related exploits there are
 
 <font style="color:#CF0000"> how do I use a custom payload in metasploit?</font>
 - first create your payload/download it, then choose generic/custom or whichever relevant custom payload in msfconsole. Then for one of its options, set the file location to your payload or paste your payload string
- 
+
+is there a way to route browser traffice through a reverse shell?
+- try editing routing table

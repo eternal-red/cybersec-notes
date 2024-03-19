@@ -86,3 +86,16 @@ greps for zombie processes
 - ```jobs```: let's you view all 
 - ```&```: backgrounds processes
 - ```bg/fg```: to background and unbackground processes
+
+### scheduling tasks
+#### - systemd
+- more comprehensive scheduler than cron
+- sections
+	- each section has their own set of descriptors (parameter/flag like things), don't use one section's in another
+	- always include `[unit], [<service>], [Install]` sections
+- note
+	- execution of scripts can be conditionally tied to other actions that processes take
+	- `service` needs to be created before script is run
+#### - cron
+- all tasks in crontab file
+- specify frequency to run task and executable location

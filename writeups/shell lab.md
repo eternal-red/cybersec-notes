@@ -41,3 +41,14 @@ targets:
 ### takeaway
 - metasploit parameters that are not required might still be required for a successful execution
 - do a thorough enumeration of the website and all its subdirectories before giving up
+- if you are exploiting a software, use a payload in the software's program, not a payload of the software's OS
+
+
+new attempt
+1. find passwords
+	1. find pages 
+		1. find all directories and subdomains with gobuster
+		2. filter out lines with error code or are just directories
+		3. find directories that are listable
+	2. curl each page and see if any passwords exist
+	3. add possible passwords to file

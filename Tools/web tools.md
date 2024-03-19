@@ -26,3 +26,8 @@ Nmap
 
 html2text
 - converts html code to readable text in the terminal
+
+systemctl
+- used to manage services run by both users and daemons
+journalctl
+- logs the status of services

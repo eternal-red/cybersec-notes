@@ -40,4 +40,35 @@ netcat/socat
 - useful tools to redirect and send i/o in a network stream
 - socat has more features than netcat
 	- socat can forward ports
+
+
+### interfaces
+- `sudo ifconfig eth0 up`
+	- sets interfaces up and down
+- you can assign a netmask and other parameters of the interface through `ifconfig`
+- you can add routes to the interface (so you can actually communicate with other devices on that interface's network) using `route`
+	- important to set route to DNS server
+	- address of DNS servers used are stored in /etc/resolv.conf
+- note
+	- must restart networking service for any of these changes to activate
+	- for any changes to save, you must write them in `interfaces` file?
+
+### network security
+- tcp wrappers
+	- restricts access to services for clients
+	- files
+		- /etc/hosts.allow
+		- /etc/hosts.deny
+- common network vulnerabiltiies
+	- Removing or disabling all unnecessary services and software
+	- Removing all services that rely on unencrypted authentication mechanisms
+	- Ensure NTP is enabled and Syslog is running
+	- Ensure that each user has its own account
+	- Enforce the use of strong passwords
+	- Set up password aging and restrict the use of previous passwords
+	- Locking user accounts after login failures
+	- Disable all unwanted SUID/SGID binaries
+
+### firewalls
 - 
+- netfilter framework is commonly used to intercept and modify traffic for firewalls

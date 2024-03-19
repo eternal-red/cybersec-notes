@@ -35,3 +35,10 @@
 
 ### routing
 - for entries in the table, if the destination is in a specific range, you send the packet to the specified gateway
+
+
+### note
+- changing config files
+	- after changing configs you need to use `source` to have those changes apply
+		- or you can just kill your current session and start a new one
+	- for running services you also need to `systemctl restart`

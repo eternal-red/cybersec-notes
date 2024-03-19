@@ -15,3 +15,4 @@ this will remove interpreted characters like
 ^M: carriage return
 
 https://www.linuxquestions.org/questions/linux-general-1/saving-output-without-control-characters-743393/
+
