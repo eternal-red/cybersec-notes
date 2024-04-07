@@ -20,7 +20,8 @@
 - three ways to chain commands
 	- Semicolon (;), (&&) also (||), Pipes (|)
 - `systemctl show <service>` outputs all available properties for a service
-
+- Pipe only redirects standard out, so standard error will show up regardless of how you manipulate the standard out after the pipe
+- `tail -f file`: lets you actively read a file as its being written
 
 
 ### nano
@@ -45,4 +46,6 @@
 	- tmux shells do not die if the terminal they are in is killed
 	- each tmux pane is a individual shell process
 
-
+### trap
+- constantly listens and conditionally executes a command if another is executed
+- is not a process itself

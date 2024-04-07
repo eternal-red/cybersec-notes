@@ -4,6 +4,9 @@
 	- medusa
 	- patator
 	- hydra: important to specify the service you are brute forcing
+	- if you need to fill out http request methods use
+		- owasp zap fuzzer 
+		- bupsuite intruder
 - attack types
 	- password attack types
 		- brute force
@@ -29,3 +32,16 @@
 	- cupp (passwd)
 	- cewl (user & pass)
 	- username anarchy (username)
+- tools to automate webtesting
+	- burpsuite
+		- make sure proper parameters are encoded in the proper way (base64 or url)
+
+brute force methodlogy
+- [ ] get user/password list
+	- [ ] find default creds for the service
+	- [ ] generate custom wordlists with cupp
+- [ ] discover parameters
+	- [ ] use owasp zap/burpsuite community
+	- [ ] send a test authorization submission and copy the curl to read parameters
+		- [ ] might have to do encoding
+- [ ] use a brute forcer

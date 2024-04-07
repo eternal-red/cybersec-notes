@@ -20,5 +20,12 @@
 <font style="color:#CF0000"> how do I use a custom payload in metasploit?</font>
 - first create your payload/download it, then choose generic/custom or whichever relevant custom payload in msfconsole. Then for one of its options, set the file location to your payload or paste your payload string
 
-is there a way to route browser traffice through a reverse shell?
+<font style="color:#CF0000">how do I daemonize, detach a process from terminal?</font>
+- use disown -h or nohup [source](https://superuser.com/questions/178587/how-do-i-detach-a-process-from-terminal-entirely) or ()
+
+<font style="color:#CF0000">openvpn/easyrsa3 `./vars, ./build-key` doesn't work</font>
+- for easyrsa3 use ./easyrsa [cmd]
+- ./vars and ./build-key is for esayrsa2
+
+ is there a way to route browser traffice through a reverse shell?
 - try editing routing table

@@ -4,59 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "5933142e811a272f",
+        "id": "519dbe9145de777f",
         "type": "tabs",
         "children": [
           {
-            "id": "a8d6d13217bfeaa9",
+            "id": "77341afad64bb1ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "trivial/webapps.md",
+                "file": "Methodology/Specific Methods/wordpress methodology.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a7b859440f36fcb2",
+            "id": "5578f09d13f6a312",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "login brute forcing.md",
+                "file": "XSS methodology.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "44d56854119da9ad",
+            "id": "7f41bbc749fddd96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "trivial/webapp methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c29b57234a90fca6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PPP notes.md",
+                "file": "Concepts/Hacking/fuzzing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,11 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 221.50390243530273
   },
   "right": {
     "id": "97902af07db81efa",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "login brute forcing.md",
+                "file": "Concepts/Hacking/fuzzing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "login brute forcing.md",
+                "file": "Concepts/Hacking/fuzzing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "login brute forcing.md"
+                "file": "Concepts/Hacking/fuzzing.md"
               }
             }
           }
@@ -183,45 +172,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7b859440f36fcb2",
+  "active": "7f41bbc749fddd96",
   "lastOpenFiles": [
-    "trivial/webapps.md",
-    "login brute forcing.md",
-    "trivial/webapp methodology.md",
-    "trivial",
-    "PPP notes.md",
-    "ToDo/questions.md",
-    "ToDo/tasks.md",
-    "Concepts/Hacking/wordpress.md",
+    "Concepts/Hacking/XSS.md",
+    "XSS methodology.md",
     "Methodology/Specific Methods/wordpress methodology.md",
-    "Kalmare CTF/reproducible pwning.md",
-    "Kalmare CTF/EZ V2.md",
-    "Kalmare CTF/Bad Ass Server Hypertext.md",
-    "Concepts/Linux/filesystem.md",
-    "Tools/web tools.md",
-    "Kalmare CTF",
-    "Methodology/methodology.md",
-    "Methodology/Specific Methods/metasploit methodology.md",
+    "ToDo/tasks.md",
+    "writeups/Headless.md",
     "Methodology/Specific Methods/gaining shell methodology.md",
-    "Tools/docker.md",
-    "Tools/adding new shell.md",
-    "useful lists/list of useful websites.md",
-    "useful lists/handy nmap scripts.md",
+    "Methodology/Specific Methods/metasploit methodology.md",
+    "Methodology/methodology.md",
+    "Concepts/Hacking/fuzzing.md",
+    "Concepts/Hacking/web enumeration.md",
+    "writeups/shell lab.md",
+    "writeups/nibble writeup.md",
+    "writeups/writeup.md",
+    "PPP notes.md",
+    "trivial/webapp methodology.md",
     "ToDo/upgrading shell.md",
     "ToDo/Xclip.md",
+    "basic elements of frontend dev.md",
+    "error messages.md",
     "personal configs.md",
-    "writeups/bandit progress.md",
-    "writeups/shell lab.md",
-    "writeups/box 1.md",
+    "ToDo/questions.md",
+    "Concepts/Hacking/command injection.md",
+    "Tools/useful tidbits.md",
+    "Tools/useful bash  stuff.md",
+    "Tools/docker.md",
+    "trivial/webapps.md",
+    "_assets/ci operators.png",
+    "_assets/url fields.png",
+    "Untitled",
+    "trivial",
+    "writeups/Kalmare CTF",
     "useful lists",
     "Methodology/Specific Methods",
-    "_assets/url fields.png",
     "writeups/Screenshot 2024-02-23 at 5.55.44 PM.png",
     "Concepts/web",
     "_assets",
     "assets",
     "untitled folder",
-    "Concepts/Hacking",
-    "ToDo"
+    "Concepts/Hacking"
   ]
 }

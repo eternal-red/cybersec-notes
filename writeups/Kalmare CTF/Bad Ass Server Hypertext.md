@@ -23,4 +23,12 @@ ${1+x}
 - get `${1+x}` to be 0
 - get to the line in script that is vulnerable to cmd injection
 	- `echo -en $1`
-- 
+
+
+
+
+
+## writeup notes
+- single square bracket has weird functionality, many potential for exploits
+	- needs to be quoted 
+- double square is much safer

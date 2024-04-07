@@ -6,6 +6,7 @@ port and service scanning
 - [ ] use [hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-network)
 
 priv esc
+look for open ports with `netstat -tuln`
 run linpeas
  look at hacktricks
 

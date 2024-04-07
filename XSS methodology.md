@@ -1,0 +1,10 @@
+- [ ] identify parameters and headers
+- [ ] identify if XSS is blind
+- [ ]  try to find how parameter and header input is handled
+		- [ ] try to get an error or xss execution
+			- [ ] find html tags and escape characters that work
+			- [ ] find js functions that work
+- [ ] identify type of XSS
+- [ ] try to have payload connect to your own server
+- [ ] write your own payload
+	- [ ] use js dom manipulation
