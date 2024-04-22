@@ -21,6 +21,7 @@ change request headers
 ```
 
 #### priv esc
+- [ ] check `sudo -l`
 - [ ] run linpeas
 do local checklist
 - [ ] enumeration scripts: LINPEAS, PEASS

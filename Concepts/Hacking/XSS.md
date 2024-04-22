@@ -32,8 +32,9 @@
 	- because the server does not store the payload, you need to send a link that has the payload attached. 
 	- processed by backend first
 	- try editing the url parameters
+	- (potential to attack webserver directly)
 - for DOM XSS
-	- no involvement with backend
+	- no involvement with backend, (payloads used against another user)
 	- JS on frontend will update the page but only after base page source is retrieved by browser
 		- refreshing will clear the payload
 	- detecting DOM vulnerability

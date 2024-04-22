@@ -12,3 +12,4 @@
 
 
 ### exercises
+use seclists for all lists
