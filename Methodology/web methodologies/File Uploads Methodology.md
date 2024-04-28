@@ -1,20 +1,20 @@
 
-- [x] look for file upload form 
+- [ ] look for file upload form 
 	```
 	<input type="file" name="uploadFile" id="uploadFile" onchange="showImage()"   accept=".jpg,.jpeg,.png">
 	
 	<input type="submit" value="Upload" id="submit">    
 	```
 	![[malicious_upload.jpeg]]
-- [x] look for client site validation
+- [ ] look for client site validation
 	```
 	onsubmit="if(validate()){upload()}"
 	```
 	- [ ] look through frontend code
-	- [x] run through proxy 
-- [x] fuzz file extensions
-	- [x] include valid file extensions name in file name but end in malicious extension
-	- [x] multiple extensions
+	- [ ] run through proxy 
+- [ ] fuzz file extensions
+	- [ ] include valid file extensions name in file name but end in malicious extension
+	- [ ] multiple extensions
 - [ ] fuzz type
 	- [ ]  fuzz content type headers
 	- [ ] fuzz MIME 
@@ -26,15 +26,16 @@
 	- [ ] XXE attack
 	- [ ] 
 
-### useful links
+### shells
 [poc php webshell](https://gist.githubusercontent.com/sente/4dbb2b7bdda2647ba80b/raw/31218294e74361df73215b44a219af3b95945618/Simple-Backdoor-One-Liner.php)
 [phpbash](https://github.com/Arrexel/phpbash)
 
-(find or make an extension wordlist)
+### payload lists
+[file upload guide](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/README.md)
 
 
-writeup
 
+## Notes
 - escape characters may bypass filters, but they may also break the payload and make it unusable
 - mime type can be mimicked by changing the magic bytes in the file before uploading or using a image file but then deleting its payload and replacing it with your payload while keeping the mime
 	- mime characters can't rly be copied

@@ -4,40 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "519dbe9145de777f",
+        "id": "35a195e62bc37a96",
         "type": "tabs",
         "children": [
           {
-            "id": "7f41bbc749fddd96",
+            "id": "82020c56383b9ef7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful lists/list of useful websites.md",
+                "file": "Concepts/Hacking/command injection.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "165f77378728d264",
+            "id": "0a488208b84278c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful lists/list of useful websites.md",
+                "file": "web attacks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "429874f79c210f00",
+            "id": "71645dab0f94046d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Concepts/Hacking/XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a153aabae39c2f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts/Hacking/file upload attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file uploads",
+                "query": "shell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful lists/list of useful websites.md",
+                "file": "Concepts/Hacking/command injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful lists/list of useful websites.md",
+                "file": "Concepts/Hacking/command injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful lists/list of useful websites.md"
+                "file": "Concepts/Hacking/command injection.md"
               }
             }
           }
@@ -170,34 +182,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f41bbc749fddd96",
+  "active": "82020c56383b9ef7",
   "lastOpenFiles": [
-    "Methodology/web methodologies/File Uploads Methodology.md",
-    "personal configs.md",
-    "useful lists/list of useful websites.md",
     "Concepts/Hacking/XSS.md",
-    "ToDo/tasks.md",
-    "error messages.md",
-    "how to find info.md",
-    "Concepts/Hacking/file upload attack.md",
-    "weird bash character stuff.md",
-    "ToDo/upgrading shell.md",
-    "Concepts/Hacking/web info gathering.md",
-    "temp inital enum.md",
-    "Concepts/Hacking/command injection.md",
-    "Methodology/inital enumeration methodology.md",
-    "Concepts/Hacking/web proxies.md",
-    "Concepts/Hacking/web enumeration.md",
-    "Concepts/Hacking/shells.md",
-    "Concepts/Hacking/service scanning.md",
-    "Concepts/Hacking/priv esc.md",
-    "Concepts/Hacking/metasploit.md",
     "Concepts/Hacking/wordpress.md",
-    "Methodology/priv esc methodology.md",
+    "Methodology/web methodologies/File Uploads Methodology.md",
+    "Concepts/Hacking/command injection.md",
     "Methodology/web methodologies/Command injection methoddology.md",
+    "Concepts/Hacking/shells.md",
+    "web attacks.md",
+    "linux privilege escalation.md",
+    "writeups/shell lab.md",
+    "Methodology/Specific Methods/gaining shell methodology.md",
+    "Tools/adding new shell.md",
+    "Concepts/Hacking/SQL Injection.md",
+    "Concepts/Hacking/file upload attack.md",
+    "useful lists/list of useful websites.md",
+    "Methodology/sql methodology.md",
+    "Methodology/priv esc methodology.md",
     "Methodology/web methodologies/XSS methodology.md",
-    "Concepts/Hacking/finding exploits.md",
-    "Concepts/Hacking/fuzzing.md",
+    "Methodology/inital enumeration methodology.md",
+    "writeups/writeup template/Completed/Payload Log.md",
+    "writeups/writeup template/Current vectors.md",
+    "ToDo/tasks.md",
+    "writeups/writeup template/Data/Notes on Data Files.md",
+    "writeups/writeup template/Data/Important Data.md",
+    "ToDo/temp inital enum.md",
+    "writeups/writeup template/Completed/Activity Log.md",
+    "writeups/writeup template/Completed/Enumeration.md",
+    "writeups/writeup template/Completed",
+    "writeups/writeup template/Data",
+    "writeups/writeup template",
+    "Untitled.canvas",
     "_assets/malicious_upload.jpeg",
     "Methodology/web methodologies",
     "_assets/ci operators.png",
@@ -208,9 +224,6 @@
     "Methodology/Specific Methods",
     "writeups/Screenshot 2024-02-23 at 5.55.44 PM.png",
     "Concepts/web",
-    "_assets",
-    "assets",
-    "untitled folder",
-    "Concepts/Hacking"
+    "_assets"
   ]
 }

@@ -4,6 +4,7 @@
 5. script that copies wordlist from matching wordlist directly to prespecified directory
 6. make extension wordlist (for file upload)
 7. make xss playload wordlist (with pluggable ips)
+8. make SQL payload wordlist 
 
 
 
