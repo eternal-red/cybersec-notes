@@ -22,6 +22,7 @@
 - `systemctl show <service>` outputs all available properties for a service
 - Pipe only redirects standard out, so standard error will show up regardless of how you manipulate the standard out after the pipe
 - `tail -f file`: lets you actively read a file as its being written
+- stderr and stdout may not be processed correctly in a webshell and cmds will not persist between them. Thus try doing negative filtering instead of `2>dev/null`
 
 
 ### nano

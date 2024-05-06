@@ -44,3 +44,53 @@
 - it is quite hard to write files to sql databases
 	- you need a lot of perms
 	- you may be able to make files (outfiles) and arbitrarily write to them
+
+## SQLMAP
+- Note
+	- there are many flags that give you specific control over certain aspects, look them up if you are not getting desired results
+	- if you detect database is vulnerable but don't find any significant injections, you can specify enumeration flags
+	- SQLMAP has code execution potential
+	- ORDER OF FLAGS MATTER
+- handeling input
+	- copy curl command
+		- just change curl to sqlmap
+	- set automatic parameter finding (if you don't have any)
+		- ie. crawl, forms
+		- use `*` or `-p <param>` to tell sqlmap to only test specific parameter
+	- can just specify a http request file with `-r <file>`
+	- possible to test http headers too (use `*`)
+- handeling output
+	- `--parse-errors`: displays errors
+	- `-t <file>` : stores output as a file
+	- `--batch --dump` tries to access content of all available tables
+- output descriptions and types
+	- target is stable
+		- `target URL content is stable`: this means website output does not change arbitrarily
+	- parameter is dynamic
+		- `GET parameter 'id' appears to be dynamic`: the tested parameter appears to be changing website content
+- formatting of http files
+	- no double new lines between headers
+	- one newline between headers and body (for POST)
+- bypassing security measures
+	- `csrf-token`: lets you try to bypass this token 
+	- `--parse-errors`: tells you what sqlmap is stuck on and maybe you can add a filter to bypass this
+
+The list of techniques with its letters is as follows:
+- B: Boolean-based blind
+- E: Error-based
+- U: Union query-based
+- S: Stacked queries
+- T: Time-based blind
+- Q: Inline queries
+
+#### problems
+- specify table before database
+- you will get valuable feedback at the end of a test with keyword `advised`
+	- try to make test shorter to get this feedback if you don't get anything good
+
+
+SQLMAP
+- [ ] include as much info as you can for input
+- [ ] increase level and risk if not getting desired results
+- [ ] redefine true and false
+

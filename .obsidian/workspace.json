@@ -8,54 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82020c56383b9ef7",
+            "id": "bd07fdc8b5295e79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Hacking/command injection.md",
+                "file": "Concepts/Hacking/SQL Injection.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0a488208b84278c7",
+            "id": "adf246a3e9bc4256",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web attacks.md",
+                "file": "ToDo/tasks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "71645dab0f94046d",
+            "id": "60fca66578586118",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Hacking/XSS.md",
+                "file": "writeups/htb-usage/Attack Path.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1a153aabae39c2f8",
+            "id": "7fc51c0db6d7f136",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Hacking/file upload attack.md",
+                "file": "Concepts/Hacking/fuzzing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shell",
+                "query": "sqlmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concepts/Hacking/command injection.md",
+                "file": "ToDo/tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concepts/Hacking/command injection.md",
+                "file": "ToDo/tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concepts/Hacking/command injection.md"
+                "file": "ToDo/tasks.md"
               }
             }
           }
@@ -182,48 +183,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82020c56383b9ef7",
+  "active": "adf246a3e9bc4256",
   "lastOpenFiles": [
-    "Concepts/Hacking/XSS.md",
-    "Concepts/Hacking/wordpress.md",
-    "Methodology/web methodologies/File Uploads Methodology.md",
-    "Concepts/Hacking/command injection.md",
-    "Methodology/web methodologies/Command injection methoddology.md",
-    "Concepts/Hacking/shells.md",
-    "web attacks.md",
-    "linux privilege escalation.md",
-    "writeups/shell lab.md",
-    "Methodology/Specific Methods/gaining shell methodology.md",
-    "Tools/adding new shell.md",
+    "Concepts/Hacking/web services and api attacks.md",
+    "useful lists/sqlmap.md",
     "Concepts/Hacking/SQL Injection.md",
-    "Concepts/Hacking/file upload attack.md",
-    "useful lists/list of useful websites.md",
-    "Methodology/sql methodology.md",
-    "Methodology/priv esc methodology.md",
-    "Methodology/web methodologies/XSS methodology.md",
-    "Methodology/inital enumeration methodology.md",
-    "writeups/writeup template/Completed/Payload Log.md",
-    "writeups/writeup template/Current vectors.md",
-    "ToDo/tasks.md",
+    "writeups/htb-usage/Attack Path.md",
+    "config file.md",
+    "writeups/htb-usage/Current vectors.md",
+    "Concepts/Hacking/fuzzing.md",
+    "Concepts/Hacking/session security.md",
+    "writeups/htb-usage/Data/Notes on Data Files.md",
+    "writeups/htb-usage/Completed/Payload Log.md",
+    "writeups/htb-usage/Completed/Enumeration.md",
+    "trivial/webapps.md",
+    "Concepts/Hacking/service scanning.md",
+    "Concepts/Hacking/LFI Local File Inclusion.md",
+    "writeups/htb-usage/Completed/Activity Log.md",
+    "writeups/htb-usage/Data/Important Data.md",
+    "writeups/writeups-academy/bandit progress.md",
+    "writeups/writeups-academy/box 1.md",
+    "writeups/writeups-academy/firewall lab.md",
+    "writeups/writeups-academy",
     "writeups/writeup template/Data/Notes on Data Files.md",
-    "writeups/writeup template/Data/Important Data.md",
-    "ToDo/temp inital enum.md",
-    "writeups/writeup template/Completed/Activity Log.md",
-    "writeups/writeup template/Completed/Enumeration.md",
+    "writeups/htb-usage/Data",
+    "writeups/htb-usage/Completed",
+    "writeups/htb-usage",
+    "writeups/writeup template copy/Data/Notes on Data Files.md",
+    "writeups/writeup template copy/Data/Important Data.md",
+    "writeups/writeup template copy/Data",
+    "writeups/writeup template copy/Current vectors.md",
+    "writeups/writeup template copy/Attack Path.md",
+    "writeups/writeup template copy/Completed/Payload Log.md",
+    "writeups/writeup template copy/Completed/Enumeration.md",
+    "writeups/writeup template copy/Completed",
+    "writeups/writeup template copy",
+    "_assets/Screenshot 2024-05-02 at 6.12.10 PM.png",
     "writeups/writeup template/Completed",
     "writeups/writeup template/Data",
     "writeups/writeup template",
     "Untitled.canvas",
     "_assets/malicious_upload.jpeg",
-    "Methodology/web methodologies",
     "_assets/ci operators.png",
     "_assets/url fields.png",
-    "trivial",
-    "writeups/Kalmare CTF",
-    "useful lists",
-    "Methodology/Specific Methods",
-    "writeups/Screenshot 2024-02-23 at 5.55.44 PM.png",
-    "Concepts/web",
-    "_assets"
+    "writeups/Screenshot 2024-02-23 at 5.55.44 PM.png"
   ]
 }
