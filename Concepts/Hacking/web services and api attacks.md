@@ -1,3 +1,7 @@
 - there exists files on servers that are basically a library file of the api
 	- this is useful to figure out how to exploit the api
 	- look for web objects with `dirb`
+	- call web functions to execute desired commands
+- attacking xmlrpc in wordpress
+	- identify if xmlrpc is enabled (curling)
+	- list methods to do additional stuff

@@ -5,11 +5,18 @@ ensure all expected modules are downloaded
 	nmap
 	wpscan
 	sqlmap
-	xxeexploiter
-	burpsuite
-	zap
+	r
 	ffuf
 	cewl
+
+install from github
+add respective shebang line
+xxeexploite
+
+install from package
+	burpsuite
+	zap
+	metasploit
 
 download seclists if it does not exist
 
@@ -48,6 +55,3 @@ kali linux shell
 - .zshrc file
 
 folder with links to all commands
-
-
-download ssh keys?
