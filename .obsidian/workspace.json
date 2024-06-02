@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Hacking/SQL Injection.md",
-                "mode": "source",
+                "file": "Concepts/Hacking/fuzzing.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -25,26 +25,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Hacking/LFI Local File Inclusion.md",
-                "mode": "source",
+                "file": "useful lists/sqlmap.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "60fca66578586118",
+            "id": "657d19a548127437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "error messages.md",
+                "file": "writeups/boardlight/Completed/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "error messages.md",
+                "file": "Concepts/Hacking/fuzzing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "error messages.md",
+                "file": "Concepts/Hacking/fuzzing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "error messages.md"
+                "file": "Concepts/Hacking/fuzzing.md"
               }
             }
           }
@@ -171,45 +171,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60fca66578586118",
+  "active": "bd07fdc8b5295e79",
   "lastOpenFiles": [
-    "Concepts/Hacking/web services and api attacks.md",
-    "Concepts/Hacking/XSS.md",
-    "config file.md",
+    "useful lists/sqlmap.md",
+    "writeups/boardlight/Completed/Enumeration.md",
     "Concepts/Hacking/fuzzing.md",
-    "Concepts/Hacking/LFI Local File Inclusion.md",
+    "writeups/boardlight/Completed/Activity Log.md",
+    "useful lists/list of useful websites.md",
+    "writeups/boardlight/Data/Important Data.md",
+    "config file.md",
+    "Concepts/Hacking/SQL Injection.md",
     "writeups/htb-usage/Attack Path.md",
-    "Concepts/Hacking/linux privilege escalation.md",
-    "Concepts/Hacking/metasploit.md",
-    "Concepts/Linux/text manipulation/interpreted text.md",
-    "Concepts/Linux/text manipulation/scripting.md",
-    "Concepts/Linux/text manipulation/text editors.md",
-    "Concepts/Linux/text manipulation/text manipulation, io, env.md",
-    "Concepts/Linux/boot process.md",
-    "Concepts/Linux/devices.md",
-    "Concepts/Linux/filesystem.md",
-    "Concepts/Linux/logging.md",
-    "Concepts/Linux/network  2.md",
-    "Concepts/Linux/networking commands.md",
-    "Concepts/Linux/processes.md",
-    "Concepts/Linux/packages.md",
-    "Concepts/Linux/tty and pty.md",
-    "Concepts/Linux/user management.md",
-    "Methodology/inital enumeration methodology.md",
-    "Methodology/Specific Methods/gaining shell methodology.md",
-    "Methodology/Specific Methods/web methodology guide.md",
     "Methodology/Specific Methods/sql methodology.md",
+    "Concepts/Hacking/web enumeration.md",
+    "writeups/boardlight/Completed/Payload Log.md",
+    "writeups/boardlight/Current vectors.md",
+    "writeups/boardlight/Attack Path.md",
+    "Methodology/Specific Methods/web methodology guide.md",
+    "Methodology/inital enumeration methodology.md",
+    "Concepts/Linux/network  2.md",
+    "writeups/writeup template/Completed/Enumeration.md",
+    "writeups/htb-usage/Completed/Enumeration.md",
+    "writeups/htb-usage/Completed/Payload Log.md",
+    "writeups/htb-usage/Data/Important Data.md",
+    "writeups/htb-usage/Data/Notes on Data Files.md",
+    "writeups/htb-usage/Current vectors.md",
+    "writeups/htb-usage/Completed/Activity Log.md",
+    "writeups/boardlight/Data/Notes on Data Files.md",
+    "writeups/boardlight/Data",
+    "writeups/boardlight/Completed",
+    "writeups/boardlight",
+    "writeups/writeup template copy/Data/Notes on Data Files.md",
+    "writeups/writeup template copy/Data",
+    "writeups/writeup template copy/Completed",
+    "writeups/writeup template copy",
     "writeups/writeups-academy",
     "writeups/htb-usage/Data",
     "writeups/htb-usage/Completed",
     "writeups/htb-usage",
-    "writeups/writeup template copy/Data",
-    "writeups/writeup template copy/Completed",
-    "writeups/writeup template copy",
     "_assets/Screenshot 2024-05-02 at 6.12.10 PM.png",
-    "writeups/writeup template/Completed",
-    "writeups/writeup template/Data",
-    "writeups/writeup template",
     "Untitled.canvas",
     "_assets/malicious_upload.jpeg",
     "_assets/ci operators.png",

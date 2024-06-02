@@ -4,3 +4,4 @@
 ## Vulnerability Enumeration
 `A section to take notes on which services you've investigated, failed exploitation attempts, promising vulnerabilities/misconfigurations, etc.`
 
+## Web Enumeration
