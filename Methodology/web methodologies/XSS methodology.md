@@ -13,4 +13,6 @@
 
 
 (find xss payload list, poc)
+https://github.com/payloadbox/xss-payload-list 
+https://github.com/s0md3v/XSStrike  (only reflected and dom screening)
 (find xss actual payload)

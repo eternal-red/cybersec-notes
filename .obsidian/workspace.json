@@ -13,9 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Hacking/fuzzing.md",
-                "mode": "preview",
+                "file": "Methodology/Specific Methods/web methodology guide.md",
+                "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "266409b81f6b3098",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -25,8 +40,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful lists/sqlmap.md",
-                "mode": "preview",
+                "file": "Concepts/Hacking/XSS.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -43,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlmap",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +105,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concepts/Hacking/fuzzing.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concepts/Hacking/fuzzing.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concepts/Hacking/fuzzing.md"
+                "file": "Untitled.canvas"
               }
             }
           }
@@ -158,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,37 +185,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd07fdc8b5295e79",
+  "active": "fb9d5886b8a78740",
   "lastOpenFiles": [
-    "useful lists/sqlmap.md",
-    "writeups/boardlight/Completed/Enumeration.md",
+    "Untitled.canvas",
+    "2024-06-09.md",
+    "Methodology/inital enumeration methodology.md",
+    "Methodology/priv esc methodology.md",
     "Concepts/Hacking/fuzzing.md",
+    "writeups/boardlight/Completed/Enumeration.md",
+    "Methodology/Specific Methods/web methodology guide.md",
+    "Methodology/web methodologies/XSS methodology.md",
+    "Methodology/web methodologies/File Uploads Methodology.md",
+    "Methodology/web methodologies/Command injection methoddology.md",
+    "Methodology/Specific Methods/gaining shell methodology.md",
+    "Methodology/Specific Methods/sql methodology.md",
+    "Concepts/Hacking/SQL Injection.md",
+    "Concepts/Hacking/XSS.md",
+    "writeups/Kalmare CTF/EZ V2.md",
+    "writeups/htb-usage/Completed/Enumeration.md",
+    "useful lists/sqlmap.md",
+    "config file.md",
+    "writeups/htb-usage/Attack Path.md",
+    "useful lists/handy nmap scripts.md",
+    "writeups/writeups-academy/box 1.md",
     "writeups/boardlight/Completed/Activity Log.md",
     "useful lists/list of useful websites.md",
     "writeups/boardlight/Data/Important Data.md",
-    "config file.md",
-    "Concepts/Hacking/SQL Injection.md",
-    "writeups/htb-usage/Attack Path.md",
-    "Methodology/Specific Methods/sql methodology.md",
     "Concepts/Hacking/web enumeration.md",
     "writeups/boardlight/Completed/Payload Log.md",
-    "writeups/boardlight/Current vectors.md",
-    "writeups/boardlight/Attack Path.md",
-    "Methodology/Specific Methods/web methodology guide.md",
-    "Methodology/inital enumeration methodology.md",
-    "Concepts/Linux/network  2.md",
-    "writeups/writeup template/Completed/Enumeration.md",
-    "writeups/htb-usage/Completed/Enumeration.md",
-    "writeups/htb-usage/Completed/Payload Log.md",
-    "writeups/htb-usage/Data/Important Data.md",
-    "writeups/htb-usage/Data/Notes on Data Files.md",
-    "writeups/htb-usage/Current vectors.md",
-    "writeups/htb-usage/Completed/Activity Log.md",
-    "writeups/boardlight/Data/Notes on Data Files.md",
     "writeups/boardlight/Data",
     "writeups/boardlight/Completed",
     "writeups/boardlight",
-    "writeups/writeup template copy/Data/Notes on Data Files.md",
     "writeups/writeup template copy/Data",
     "writeups/writeup template copy/Completed",
     "writeups/writeup template copy",
@@ -210,7 +224,6 @@
     "writeups/htb-usage/Completed",
     "writeups/htb-usage",
     "_assets/Screenshot 2024-05-02 at 6.12.10 PM.png",
-    "Untitled.canvas",
     "_assets/malicious_upload.jpeg",
     "_assets/ci operators.png",
     "_assets/url fields.png",
