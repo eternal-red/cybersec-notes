@@ -20,6 +20,12 @@
 		- linenum, linuxprivchecker
 	- windows
 		- seatbelt, jaws
+		
+SUID binaries
+read config files
+see if they are writeable
+look for credentials
+then run linpeas.xxs
 
 
 ### general process of priv esc

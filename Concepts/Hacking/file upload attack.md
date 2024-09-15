@@ -1,6 +1,6 @@
 ### Notes
  - A web shell has to be written in the same programming language that runs the web server
- - If the file uploads successfully but does not execute code, try additional extensions
+ - If the file fuploads successfully but does not execute code, try additional extensions
  - burp showing green for data is fine
 
 ### jpeg bypass 

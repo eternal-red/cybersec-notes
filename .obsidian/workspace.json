@@ -8,51 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd07fdc8b5295e79",
+            "id": "dc9109414fe49546",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methodology/Specific Methods/web methodology guide.md",
+                "file": "Polars Primer.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "266409b81f6b3098",
+            "id": "fb2feea820ca700e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Polars Primer.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "adf246a3e9bc4256",
+            "id": "5db328071f08a056",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Concepts/Hacking/XSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "657d19a548127437",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "writeups/boardlight/Completed/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ffuf",
+                "query": "polar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Polars Primer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Polars Primer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Polars Primer.md"
               }
             }
           }
@@ -185,34 +171,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb9d5886b8a78740",
+  "active": "fb2feea820ca700e",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "2024-06-09.md",
-    "Methodology/inital enumeration methodology.md",
-    "Methodology/priv esc methodology.md",
-    "Concepts/Hacking/fuzzing.md",
-    "writeups/boardlight/Completed/Enumeration.md",
-    "Methodology/Specific Methods/web methodology guide.md",
-    "Methodology/web methodologies/XSS methodology.md",
-    "Methodology/web methodologies/File Uploads Methodology.md",
-    "Methodology/web methodologies/Command injection methoddology.md",
-    "Methodology/Specific Methods/gaining shell methodology.md",
-    "Methodology/Specific Methods/sql methodology.md",
-    "Concepts/Hacking/SQL Injection.md",
-    "Concepts/Hacking/XSS.md",
-    "writeups/Kalmare CTF/EZ V2.md",
-    "writeups/htb-usage/Completed/Enumeration.md",
-    "useful lists/sqlmap.md",
+    "Jax Primer.md",
+    "Polars Primer.md",
+    "Polars Primer 1.md",
     "config file.md",
-    "writeups/htb-usage/Attack Path.md",
-    "useful lists/handy nmap scripts.md",
+    "code.md",
+    "Server Side Template Injection.md",
+    "notes from night.md",
+    "Concepts/Hacking/wordpress.md",
+    "Concepts/Hacking/fuzzing.md",
+    "Methodology/web methodologies/File Uploads Methodology.md",
+    "Concepts/Hacking/file upload attack.md",
+    "Methodology/web methodologies/Command injection methoddology.md",
+    "2024-06-09.md",
+    "Untitled.canvas",
+    "writeups/htb-usage/Current vectors.md",
+    "Methodology/Specific Methods/web methodology guide.md",
+    "Concepts/Hacking/XSS.md",
     "writeups/writeups-academy/box 1.md",
+    "trivial/webapps.md",
+    "ToDo/tasks.md",
+    "writeups/writeups-academy/perfection writeup.md",
+    "writeups/htb-usage/Completed/Enumeration.md",
+    "Concepts/Hacking/priv esc.md",
+    "writeups/htb-usage/Attack Path.md",
+    "writeups/boardlight/Completed/Enumeration.md",
     "writeups/boardlight/Completed/Activity Log.md",
-    "useful lists/list of useful websites.md",
-    "writeups/boardlight/Data/Important Data.md",
-    "Concepts/Hacking/web enumeration.md",
-    "writeups/boardlight/Completed/Payload Log.md",
+    "Concepts/Hacking/LFI Local File Inclusion.md",
     "writeups/boardlight/Data",
     "writeups/boardlight/Completed",
     "writeups/boardlight",
