@@ -15,6 +15,8 @@ web-extensions.txt: file extensions
 subdomains-top1million-5000.txt: subdomains  
 burp-parameter-names.txt: parameters 
 xato-net-10-million-usernames.txt: usernames
+{maverick}/linux-cmd-injection.txt: cmd inj fuzzing
+https://github.com/payloadbox/xss-payload-list: xss fuzzing
 ```
 ### good fuzzers
 - ffuf

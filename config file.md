@@ -22,7 +22,7 @@ download seclists if it does not exist
 
 download all wordlists
 ```
-directory-list-2.3-small.txt: directories and files
+-: directories and files
 web-extensions.txt: file extensions  
 subdomains-top1million-5000.txt: subdomains  
 burp-parameter-names.txt: parameters 
